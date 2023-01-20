@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+img{
+    width: 200px;
+}
+h1{
+    background: #ffdd19;
+    color: #4974ff;
+    margin: 0;
+}
+p{
+    background: #ff727e;
+    color: #3142ff;
+}
+ul{
+    background: #94ed9d;
+    color: #ed9b1c;
+}
+a{
+    background: #1ced4b;
+    color: #ed3627;
+    text-decoration: none;
+}
+
