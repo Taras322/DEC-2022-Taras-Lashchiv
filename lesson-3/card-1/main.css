@@ -11,13 +11,15 @@ body{
 }
 .main-container .box .circle {
     position: absolute;
-    top: -75px;
+    left: 50%;
+    transform: translate(-50%, -40px);
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px solid silver;
     background: #ffffff;
 }
@@ -33,7 +35,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid silver;
+    border: 1px solid silver;
     padding: 15px;
 }
 .main-container .box p{
