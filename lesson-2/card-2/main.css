@@ -2,12 +2,50 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Roboto sans-serif;
+    font-size: 16px;
 }
 h2 {
-
+    text-align: center;
 }
-
 .main-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
+}
+.box {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 2px 0px silver;
+    padding: 5px;
+}
+.main-container .box h3 {
+    color: #d4934b;
+}
+.main-container .box p {
+    color: #bdbde1;
+    text-align: center;
+}
+.main-container .box button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background: #25d481;
+}
+.main-container .box .button:hover {
+    color: #ffffff;
+    background: #000000;
+
 }
