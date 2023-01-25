@@ -23,7 +23,6 @@ header{
 }
 .burger{
     display: flex;
-    flex-direction: row;
     gap: 20px;
 }
 .fa-solid{
